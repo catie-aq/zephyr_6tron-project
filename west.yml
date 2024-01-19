@@ -6,14 +6,15 @@ manifest:
     - name: catie-6tron
       url-base: https://github.com/catie-aq
 
+  defaults:
+    remote: catie-6tron
+
   projects:
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
-      remote: catie-6tron
       revision: master
       path: 6tron/zest-sensor-imu
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      remote: catie-6tron
       revision: master
       path: 6tron/zest-core-stm32l4a6rg
