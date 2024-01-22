@@ -10,11 +10,19 @@ manifest:
     remote: catie-6tron
 
   projects:
-    - name: zest-sensor-imu
-      repo-path: zephyr_zest-sensor-imu
-      revision: master
-      path: 6tron/zest-sensor-imu
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: master
       path: 6tron/zest-core-stm32l4a6rg
+    - name: zest-sensor-imu
+      repo-path: zephyr_zest-sensor-imu
+      revision: master
+      path: 6tron/zest-sensor-imu
+    - name: zest-sensor-p-t-rh
+      repo-path: zephyr_zest-sensor-p-t-rh
+      revision: master
+      path: 6tron/zest-sensor-p-t-rh
+    - name: ams-as621x
+      repo-path: zephyr_ams-as621x
+      revision: master
+      path: 6tron/ams-as621x
