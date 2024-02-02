@@ -26,3 +26,7 @@ manifest:
       repo-path: zephyr_ams-as621x
       revision: master
       path: 6tron/ams-as621x
+    - name: honeywell-hpma115
+      repo-path: zephyr_honeywell-hpma115
+      revision: main
+      path: 6tron/honeywell-hpma115
