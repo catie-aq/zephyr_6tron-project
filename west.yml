@@ -10,6 +10,10 @@ manifest:
     remote: catie-6tron
 
   projects:
+    - name: 6tron-connector
+      repo-path: zephyr_6tron-connector
+      revision: main
+      path: 6tron/6tron-connector
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: master
