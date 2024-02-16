@@ -9,3 +9,5 @@
 
 ## Driver
 - [AMS AS621X](https://github.com/catie-aq/zephyr_ams-as621x)
+- [Honeywell HPMA115](https://github.com/catie-aq/zephyr_honeywell-hpma115)
+- [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
