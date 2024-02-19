@@ -36,5 +36,5 @@ manifest:
       path: 6tron/honeywell-hpma115
     - name: sensirion-scd4x
       repo-path: zephyr_sensirion-scd4x
-      revision: master
+      revision: main
       path: 6tron/sensirion-scd4x
