@@ -38,3 +38,7 @@ manifest:
       repo-path: zephyr_sensirion-scd4x
       revision: main
       path: 6tron/sensirion-scd4x
+    - name: te-connectivity-htu21d
+      repo-path: zephyr_te-connectivity-htu21d
+      revision: main
+      path: 6tron/te-connectivity-htu21d
