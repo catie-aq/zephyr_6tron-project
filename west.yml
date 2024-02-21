@@ -12,33 +12,33 @@ manifest:
   projects:
     - name: 6tron-connector
       repo-path: zephyr_6tron-connector
-      revision: main
+      revision: 5594403822b9a258d168df22dd35aefa06344668
       path: 6tron/6tron-connector
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: master
+      revision: 4a315be4757926e9608c23eccba1f80ff77b4170
       path: 6tron/zest-core-stm32l4a6rg
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
-      revision: master
+      revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
       path: 6tron/zest-sensor-imu
     - name: zest-sensor-p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
-      revision: master
+      revision: 4a8bd28cf84904b474c7a266187d76c00ff0fae3
       path: 6tron/zest-sensor-p-t-rh
     - name: ams-as621x
       repo-path: zephyr_ams-as621x
-      revision: master
+      revision: 5f1202c926994dc2b9647c4938fc9c161832abf3
       path: 6tron/ams-as621x
     - name: honeywell-hpma115
       repo-path: zephyr_honeywell-hpma115
-      revision: main
+      revision: f49038dc384b945360ac466b0d0dcd4aa8f7500b
       path: 6tron/honeywell-hpma115
     - name: sensirion-scd4x
       repo-path: zephyr_sensirion-scd4x
-      revision: main
+      revision: 12ffaa8457665a7c973743d94288fdc7775e7b2a
       path: 6tron/sensirion-scd4x
     - name: te-connectivity-htu21d
       repo-path: zephyr_te-connectivity-htu21d
-      revision: main
+      revision: 570b06f9a5fe0d12a9dedf66ef06247cd5433e99
       path: 6tron/te-connectivity-htu21d
