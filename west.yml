@@ -70,6 +70,6 @@ manifest:
 =======
     - name: zest-radio-gnss
       repo-path: zephyr_zest-radio-gnss
-      revision: 5ea6d919c3455e4df85e377f5d4a060d08912d4f
+      revision: f2ea9a1a6c0f2171b20309aa2b42acfb02271dbc
       path: 6tron/zest-radio-gnss
 >>>>>>> add zest_radio_gnss
