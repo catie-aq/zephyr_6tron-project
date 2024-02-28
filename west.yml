@@ -27,12 +27,19 @@ manifest:
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: 5f9218a702cf9b13a97c5c2aad8b552dd1eebe58
       path: 6tron/zest-core-stm32l4a6rg
+<<<<<<< HEAD
 # ================= Integrated Devices =================
     - name: z-iaq
       repo-path: zephyr_z-iaq
       revision: 778f0a4cad56fa8f1c719d8f3381f30c36c9de22
       path: 6tron/z-iaq
 # ==================== Zest boards =====================
+=======
+    - name: zest-radio-gnss
+      repo-path: zephyr_zest-radio-gnss
+      revision: f2ea9a1a6c0f2171b20309aa2b42acfb02271dbc
+      path: 6tron/zest-radio-gnss
+>>>>>>> move the declaration order
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
       revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
@@ -63,6 +70,7 @@ manifest:
       revision: 570b06f9a5fe0d12a9dedf66ef06247cd5433e99
       path: 6tron/te-connectivity-htu21d
 <<<<<<< HEAD
+<<<<<<< HEAD
     - name: microchip-mcp3425
       repo-path: zephyr_microchip-mcp3425
       revision: cbf4e9376d2e96647233e3c05959fc6ea1ce395a
@@ -73,3 +81,5 @@ manifest:
       revision: f2ea9a1a6c0f2171b20309aa2b42acfb02271dbc
       path: 6tron/zest-radio-gnss
 >>>>>>> add zest_radio_gnss
+=======
+>>>>>>> move the declaration order
