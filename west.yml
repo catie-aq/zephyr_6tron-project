@@ -42,3 +42,7 @@ manifest:
       repo-path: zephyr_te-connectivity-htu21d
       revision: 570b06f9a5fe0d12a9dedf66ef06247cd5433e99
       path: 6tron/te-connectivity-htu21d
+    - name: microchip-mcp3425
+      repo-path: zephyr_microchip-mcp3425
+      revision: 66cedaca717767809304302edfeb4561a14cb426
+      path: 6tron/microchip-mcp3425
