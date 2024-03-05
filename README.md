@@ -13,4 +13,3 @@
 - [Microchip MCP3425](https://github.com/catie-aq/zephyr_microchip-mcp3425)
 - [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
 - [TE Connectivity HTU21D](https://github.com/catie-aq/zephyr_te-connectivity-htu21d)
-
