@@ -1,5 +1,13 @@
 # Changelog
 
+
+## [Unreleased]
+
+### Added
+
+- Add support for Microchip MCP3425 (#24)
+
+
 ## [3.5.0+202402] - 20240221
 
 _Initial release._
