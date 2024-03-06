@@ -5,7 +5,7 @@
 
 ### Added
 
-- Add support for Microchip MCP3425 (#24)
+- Add support for Microchip MCP3425 ([#24](https://github.com/catie-aq/zephyr_6tron-manifest/issues/24))
 
 
 ## [3.5.0+202402] - 20240221
