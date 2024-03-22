@@ -1,6 +1,7 @@
 # Zephyr 6TRON manifest
 
 ## Zest_Core boards
+- [Zest Core STM32G474VE](https://6tron.io/zest_core/zest_core_stm32g474vet_1_0_0/)
 - [Zest Core STM32L4A6RG](https://catie-aq.github.io/6tron_www/zest_core_stm32l4a6rg/)
 
 ## Zest boards
