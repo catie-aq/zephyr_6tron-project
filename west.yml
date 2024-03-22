@@ -14,14 +14,14 @@ manifest:
       repo-path: zephyr_6tron-connector
       revision: 5594403822b9a258d168df22dd35aefa06344668
       path: 6tron/6tron-connector
-    - name: zest-core-stm32l4a6rg
-      repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 4a315be4757926e9608c23eccba1f80ff77b4170
-      path: 6tron/zest-core-stm32l4a6rg
     - name: zest-core-stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
       revision: 57e0b57a257c10405328be350d0d4150532f6b16
       path: 6tron/zest-core-stm32g474ve
+    - name: zest-core-stm32l4a6rg
+      repo-path: zephyr_zest-core-stm32l4a6rg
+      revision: 4a315be4757926e9608c23eccba1f80ff77b4170
+      path: 6tron/zest-core-stm32l4a6rg
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
       revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
