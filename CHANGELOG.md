@@ -5,6 +5,7 @@
 ### Added
 
 - Add support for Microchip MCP3425.
+- Add support for Microchip Zest Core STM32G474VE.
 
 ## [3.5.0+202402] - 20240221
 
