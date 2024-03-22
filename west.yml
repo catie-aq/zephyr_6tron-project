@@ -38,6 +38,10 @@ manifest:
       repo-path: zephyr_honeywell-hpma115
       revision: f49038dc384b945360ac466b0d0dcd4aa8f7500b
       path: 6tron/honeywell-hpma115
+    - name: omron-2smpb-02e
+      repo-path: zephyr_omron-2smpb-02e
+      revision: a561e56135bdb0ce7c37e04bf5f707217beae5d5
+      path: 6tron/omron-2smpb-02e
     - name: sensirion-scd4x
       repo-path: zephyr_sensirion-scd4x
       revision: 12ffaa8457665a7c973743d94288fdc7775e7b2a

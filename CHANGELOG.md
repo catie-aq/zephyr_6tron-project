@@ -6,6 +6,7 @@
 
 - Add support for Microchip MCP3425.
 - Add support for Zest Core STM32G474VE.
+- Add support for Omron 2SMPB 02E.
 
 ## [3.5.0+202402] - 20240221
 
