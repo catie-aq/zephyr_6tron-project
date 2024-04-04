@@ -23,6 +23,11 @@ manifest:
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: 4a315be4757926e9608c23eccba1f80ff77b4170
       path: 6tron/zest-core-stm32l4a6rg
+# ====================== Z Object ======================
+    - name: z-iaq
+      repo-path: zephyr_z-iaq
+      revision: 3f600d170d10b6c26fbf7d452dfb0bafe9202759
+      path: 6tron/z-iaq
 # ==================== Zest boards =====================
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
