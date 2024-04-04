@@ -8,6 +8,9 @@
 - [Zest Sensor IMU](https://github.com/catie-aq/zephyr_zest-sensor-imu)
 - [Zest Sensor P-T-RH](https://github.com/catie-aq/zephyr_zest-sensor-p-t-rh)
 
+## Integrated Devices
+- [Z IAQ](https://github.com/catie-aq/zephyr_z-iaq)
+
 ## Drivers
 - [AMS AS621X](https://github.com/catie-aq/zephyr_ams-as621x)
 - [Honeywell HPMA115](https://github.com/catie-aq/zephyr_honeywell-hpma115)
