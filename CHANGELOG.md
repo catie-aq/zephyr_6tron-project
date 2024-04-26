@@ -9,6 +9,7 @@
 - Add support for Omron 2SMPB 02E.
 - Add support for Z IAQ.
 - Add support for Zest_Core_nRF52832.
+- Add CI to auto update the manifest.
 
 ## [3.5.0+202402] - 20240221
 
