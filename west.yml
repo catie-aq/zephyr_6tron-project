@@ -15,6 +15,10 @@ manifest:
       revision: 5594403822b9a258d168df22dd35aefa06344668
       path: 6tron/6tron-connector
 # ================== Zest Core boards ==================
+    - name: zest-core-nrf52832
+      repo-path: zephyr_zest-core-nrf52832
+      revision: aadc7b9f13de04fdce88ea8904420329c61628a0
+      path: 6tron/zest-core-nrf52832
     - name: zest-core-stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
       revision: 57e0b57a257c10405328be350d0d4150532f6b16
