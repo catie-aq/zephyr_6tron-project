@@ -1,0 +1,52 @@
+name: Update Manifest
+
+on:
+  schedule:
+    - cron: '0 0 * * MON'
+  workflow_dispatch:
+
+jobs:
+  check-update:
+    runs-on: 
+      group: default
+    container:
+      image: python:3.10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: folder
+      - name: Install jq
+        run: apt-get update && apt-get install -y jq
+      - name: Perform update
+        id: perform_update
+        uses: catie-aq/zephyr_workflows/update_manifest@main
+        with:
+          manifest: $GITHUB_WORKSPACE/folder/west.yml
+          personal_access_token: ${{ secrets.PAT }}
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+      
+      - uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Open Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: folder
+          branch: update-manifest
+          title: Update Zephyr Manifest
+          commit-message: "Bump Zephyr manifest SHA"
+          author: GitHub <noreply@github.com>
+          labels: dependencies
+          delete-branch: true
+          body-path: change/change.md
+          token: ${{ steps.generate-token.outputs.token }}
+      - name: Clean up
+        if: always()
+        run: |
+          rm -rf ${{ github.workspace }}
