@@ -17,7 +17,7 @@ manifest:
 # ================== Zest Core boards ==================
     - name: zest-core-nrf52832
       repo-path: zephyr_zest-core-nrf52832
-      revision: aadc7b9f13de04fdce88ea8904420329c61628a0
+      revision: 2c91fe7d363741bac3a7ff4ada7695f8675b5697
       path: 6tron/zest-core-nrf52832
     - name: zest-core-stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
@@ -25,12 +25,12 @@ manifest:
       path: 6tron/zest-core-stm32g474ve
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 4a315be4757926e9608c23eccba1f80ff77b4170
+      revision: 5f9218a702cf9b13a97c5c2aad8b552dd1eebe58
       path: 6tron/zest-core-stm32l4a6rg
 # ================= Integrated Devices =================
     - name: z-iaq
       repo-path: zephyr_z-iaq
-      revision: 7542b4fe68b2a513066c4aeed917225c1c660893
+      revision: 778f0a4cad56fa8f1c719d8f3381f30c36c9de22
       path: 6tron/z-iaq
 # ==================== Zest boards =====================
     - name: zest-sensor-imu
@@ -39,7 +39,7 @@ manifest:
       path: 6tron/zest-sensor-imu
     - name: zest-sensor-p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
-      revision: 4a8bd28cf84904b474c7a266187d76c00ff0fae3
+      revision: 51d37df1461e96700aba094f680adc9a45b969b5
       path: 6tron/zest-sensor-p-t-rh
 # ====================== Drivers =======================
     - name: ams-as621x
