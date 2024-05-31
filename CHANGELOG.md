@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Add support for shield Zest_Radio_GNSS.
+
 ## [3.6.0+202404] - 20240426
 
 ### Added
