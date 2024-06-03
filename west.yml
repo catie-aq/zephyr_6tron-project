@@ -52,7 +52,7 @@ manifest:
       path: 6tron/ams-as621x
     - name: honeywell-hpma115
       repo-path: zephyr_honeywell-hpma115
-      revision: f49038dc384b945360ac466b0d0dcd4aa8f7500b
+      revision: 336a914299901b46bc4ecfcb0d8e1177e6db1615
       path: 6tron/honeywell-hpma115
     - name: omron-2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
