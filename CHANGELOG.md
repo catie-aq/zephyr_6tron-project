@@ -6,6 +6,10 @@
 
 - Add support for shield Zest_Radio_GNSS.
 
+### Changed
+
+- Fix Honeywell HPMA115 driver initialization.
+
 ## [3.6.0+202404] - 20240426
 
 ### Added
