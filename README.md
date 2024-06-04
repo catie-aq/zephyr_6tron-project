@@ -6,6 +6,7 @@
 - [Zest_Core_STM32L4A6RG](https://github.com/catie-aq/zephyr_zest-core-stm32l4a6rg)
 
 ## Zest boards
+- [Zest_Interface_Ethernet](https://github.com/catie-aq/zephyr_zest-interface-ethernet)
 - [Zest_Radio_GNSS](https://github.com/catie-aq/zephyr_zest-radio-gnss)
 - [Zest_Sensor_IMU](https://github.com/catie-aq/zephyr_zest-sensor-imu)
 - [Zest_Sensor_P-T-RH](https://github.com/catie-aq/zephyr_zest-sensor-p-t-rh)

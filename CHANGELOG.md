@@ -5,6 +5,7 @@
 ### Added
 
 - Add support for shield Zest_Radio_GNSS.
+- Add support for shield Zest_Interface_Ethernet.
 
 ### Changed
 

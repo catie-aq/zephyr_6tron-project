@@ -33,6 +33,10 @@ manifest:
       revision: 778f0a4cad56fa8f1c719d8f3381f30c36c9de22
       path: 6tron/z-iaq
 # ==================== Zest boards =====================
+    - name: zest-interface-ethernet
+      repo-path: zephyr_zest-interface-ethernet
+      revision: c743ade3a10a3758edb9ce3715cd6c711d5d2cbc
+      path: 6tron/zest-interface-ethernet
     - name: zest-radio-gnss
       repo-path: zephyr_zest-radio-gnss
       revision: f2ea9a1a6c0f2171b20309aa2b42acfb02271dbc
