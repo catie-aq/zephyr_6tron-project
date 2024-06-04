@@ -35,7 +35,7 @@ manifest:
 # ==================== Zest boards =====================
     - name: zest-interface-ethernet
       repo-path: zephyr_zest-interface-ethernet
-      revision: c743ade3a10a3758edb9ce3715cd6c711d5d2cbc
+      revision: 765c0029818806c1d7101b8a83ae57036d80744f
       path: 6tron/zest-interface-ethernet
     - name: zest-radio-gnss
       repo-path: zephyr_zest-radio-gnss
