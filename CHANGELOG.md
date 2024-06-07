@@ -6,6 +6,7 @@
 
 - Add support for shield Zest_Radio_GNSS.
 - Add support for shield Zest_Interface_Ethernet.
+- Add support for Zest_Core_STM32H753ZI
 
 ### Changed
 
