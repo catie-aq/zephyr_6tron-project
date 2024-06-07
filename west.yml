@@ -23,6 +23,10 @@ manifest:
       repo-path: zephyr_zest-core-stm32g474ve
       revision: 57e0b57a257c10405328be350d0d4150532f6b16
       path: 6tron/zest-core-stm32g474ve
+    - name: zest-core-stm32h753zi
+      repo-path: zephyr_zest-core-stm32h753zi
+      revision: 7cc92e6f71d3bad424694312df4dcdd4dbb3cd0e
+      path: 6tron/zest-core-stm32h753zi
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: 5f9218a702cf9b13a97c5c2aad8b552dd1eebe58
