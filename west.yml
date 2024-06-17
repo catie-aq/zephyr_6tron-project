@@ -29,7 +29,7 @@ manifest:
       path: 6tron/zest-core-stm32h753zi
     - name: zest-core-stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 5f9218a702cf9b13a97c5c2aad8b552dd1eebe58
+      revision: c50c850f344d21fdcf612ac5fd96c9f15334bd50
       path: 6tron/zest-core-stm32l4a6rg
 # ================= Integrated Devices =================
     - name: z-iaq
@@ -43,7 +43,7 @@ manifest:
       path: 6tron/zest-interface-ethernet
     - name: zest-radio-gnss
       repo-path: zephyr_zest-radio-gnss
-      revision: f2ea9a1a6c0f2171b20309aa2b42acfb02271dbc
+      revision: 3e583e39e8c7dc58888fdfa9ba8a44ba623bc7be
       path: 6tron/zest-radio-gnss
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
