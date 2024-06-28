@@ -7,10 +7,15 @@
 - Add support for shield Zest_Radio_GNSS.
 - Add support for shield Zest_Interface_Ethernet.
 - Add support for Zest_Core_STM32H753ZI
+- Add README for shield Zest_Radio_GNSS.
+- Add missing pre-commit configuration for Zest_Core_STM32L4A6RG.
+- Add `sixtron_connector` label for Zest_Core_STM32L4A6RG.
+- Add Zest_Core_STM32L4A6RG metadata for test runner.
 
 ### Changed
 
 - Fix Honeywell HPMA115 driver initialization.
+- Update pre-commit configuration for shield Zest_Radio_GNSS.
 
 ## [3.6.0+202404] - 20240426
 
