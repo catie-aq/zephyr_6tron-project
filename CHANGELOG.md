@@ -6,7 +6,8 @@
 
 - Add support for shield Zest_Radio_GNSS.
 - Add support for shield Zest_Interface_Ethernet.
-- Add support for Zest_Core_STM32H753ZI
+- Add support for Zest_Core_STM32H753ZI.
+- Add support for Zest_Core_FMLR-72.
 - Add README for shield Zest_Radio_GNSS.
 - Add missing pre-commit configuration for Zest_Core_STM32L4A6RG.
 - Add `sixtron_connector` label for Zest_Core_STM32L4A6RG.
