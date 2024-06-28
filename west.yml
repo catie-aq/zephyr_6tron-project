@@ -49,6 +49,10 @@ manifest:
       repo-path: zephyr_zest-radio-gnss
       revision: 3e583e39e8c7dc58888fdfa9ba8a44ba623bc7be
       path: 6tron/zest-radio-gnss
+    - name: zest-radio-lora868
+      repo-path: zephyr_zest-radio-lora868
+      revision: aa9f3da891782638634d47b40b0ead3f64bd0551
+      path: 6tron/zest-radio-lora868
     - name: zest-sensor-imu
       repo-path: zephyr_zest-sensor-imu
       revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
