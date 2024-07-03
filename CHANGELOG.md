@@ -2,18 +2,20 @@
 
 ## [Unreleased]
 
+## [3.6.0+202407] - 20240703
+
 ### Added
 
-- Add support for shield Zest_Radio_GNSS.
-- Add support for shield Zest_Interface_Ethernet.
-- Add support for Zest_Core_STM32H753ZI.
 - Add support for Zest_Core_FMLR-72.
+- Add support for Zest_Core_STM32H753ZI.
 - Add support for Zest_Core_STM32L562VE.
+- Add support for shield Zest_Interface_Ethernet.
+- Add support for shield Zest_Radio_GNSS.
 - Add support for shield Zest_Radio_LoRa868.
-- Add README for shield Zest_Radio_GNSS.
 - Add missing pre-commit configuration for Zest_Core_STM32L4A6RG.
 - Add `sixtron_connector` label for Zest_Core_STM32L4A6RG.
 - Add Zest_Core_STM32L4A6RG metadata for test runner.
+- Add README for shield Zest_Radio_GNSS.
 
 ### Changed
 
@@ -39,3 +41,4 @@ _Initial release._
 
 [3.5.0+202402]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.5.0+202402
 [3.6.0+202404]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.6.0+202404
+[3.6.0+202407]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.6.0+202407
