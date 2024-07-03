@@ -8,6 +8,7 @@
 - Add support for shield Zest_Interface_Ethernet.
 - Add support for Zest_Core_STM32H753ZI.
 - Add support for Zest_Core_FMLR-72.
+- Add support for Zest_Core_STM32L562VE.
 - Add support for shield Zest_Radio_LoRa868.
 - Add README for shield Zest_Radio_GNSS.
 - Add missing pre-commit configuration for Zest_Core_STM32L4A6RG.
