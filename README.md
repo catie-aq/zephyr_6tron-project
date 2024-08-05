@@ -22,7 +22,8 @@ in the [6TRON](https://6tron.io) project.
 
 ## Integrated Devices
 
-- [Z IAQ](https://github.com/catie-aq/zephyr_z-iaq)
+- [Z_IAQ](https://github.com/catie-aq/zephyr_z-iaq)
+- [Z_Motion](https://github.com/catie-aq/zephyr_z-motion)
 
 ## Drivers
 

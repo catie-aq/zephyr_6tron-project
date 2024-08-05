@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Add support for Z_Motion.
+
 ## [3.6.0+202407] - 20240703
 
 ### Added
