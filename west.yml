@@ -44,6 +44,10 @@ manifest:
       repo-path: zephyr_z-iaq
       revision: 778f0a4cad56fa8f1c719d8f3381f30c36c9de22
       path: 6tron/z-iaq
+    - name: z-motion
+      repo-path: zephyr_z-motion
+      revision: 385087b102bd032c369eff7d28bf969fe7332e81
+      path: 6tron/z-motion
 # ==================== Zest boards =====================
     - name: zest-interface-ethernet
       repo-path: zephyr_zest-interface-ethernet
