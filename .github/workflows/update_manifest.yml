@@ -42,7 +42,7 @@ jobs:
           title: Update Zephyr Manifest
           commit-message: "Bump Zephyr manifest SHA"
           author: GitHub <noreply@github.com>
-          labels: dependencies
+          labels: enhancement
           delete-branch: true
           body-path: change/change.md
           token: ${{ steps.generate-token.outputs.token }}
