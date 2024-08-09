@@ -6,6 +6,23 @@
 
 - Add support for Z_Motion.
 
+### Changed
+
+- Support Zephyr OS 3.7.0.
+- Update Zest_Core_FMLR-72 driver to Zephyr hardware model v2.
+- Update Zest_Core_STM32G474VE driver to Zephyr hardware model v2.
+- Update Zest_Core_STM32H753ZI driver to Zephyr hardware model v2.
+- Update Zest_Core_STM32L4A6RG driver to Zephyr hardware model v2.
+- Update Zest_Core_STM32L562VE driver to Zephyr hardware model v2.
+- Update Zest_Core_nRF52832 driver to Zephyr hardware model v2.
+- Update Z_IAQ board to Zephyr hardware model v2.
+- Update AMS AS621x driver to Zephyr hardware model v2.
+- Update Honeywell HPMA115 driver to Zephyr hardware model v2.
+- Update Microchip MCP3425 driver to Zephyr hardware model v2.
+- Update Omron 2SMPB-02E driver to Zephyr hardware model v2.
+- Update Sensirion SCD4x driver to Zephyr hardware model v2.
+- Update TE Connectivity HTU21D driver to Zephyr hardware model v2.
+
 ## [3.6.0+202407] - 20240703
 
 ### Added
