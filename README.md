@@ -12,7 +12,7 @@ in the [6TRON](https://6tron.io) project.
 - [Zest_Core_STM32L4A6RG](https://github.com/catie-aq/zephyr_zest-core-stm32l4a6rg)
 - [Zest_Core_STM32L562VE](https://github.com/catie-aq/zephyr_zest-core-stm32l562ve)
 
-## Zest boards
+## Zest Shields
 
 - [Zest_Interface_Ethernet](https://github.com/catie-aq/zephyr_zest-interface-ethernet)
 - [Zest_Radio_GNSS](https://github.com/catie-aq/zephyr_zest-radio-gnss)
