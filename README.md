@@ -3,7 +3,7 @@
 Zephyr RTOS module adding support for boards, drivers and libraries developed
 in the [6TRON](https://6tron.io) project.
 
-## Zest_Core boards
+## Zest_Core Boards
 
 - [Zest_Core_FMLR-72](https://github.com/catie-aq/zephyr_zest-core-fmlr-72)
 - [Zest_Core_nRF52832](https://github.com/catie-aq/zephyr_zest-core-nrf52832)
