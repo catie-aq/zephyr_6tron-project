@@ -62,9 +62,9 @@ manifest:
       revision: aa9f3da891782638634d47b40b0ead3f64bd0551
       path: 6tron/shields/zest_radio_lora868
     - name: zest_sensor_imu
-      repo-path: zephyr_zest_sensor_imu
+      repo-path: zephyr_zest-sensor-imu
       revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
-      path: 6tron/shields/zest-sensor-imu
+      path: 6tron/shields/zest_sensor_imu
     - name: zest_sensor_p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
       revision: 51d37df1461e96700aba094f680adc9a45b969b5
