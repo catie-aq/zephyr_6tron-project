@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [3.7.0+202408] - 20240809
+
 ### Added
 
 - Add support for Z_Motion.
@@ -63,3 +65,4 @@ _Initial release._
 [3.5.0+202402]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.5.0+202402
 [3.6.0+202404]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.6.0+202404
 [3.6.0+202407]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.6.0+202407
+[3.7.0+202408]: https://github.com/catie-aq/zephyr_6tron-manifest/releases/tag/v3.7.0+202408
