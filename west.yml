@@ -10,87 +10,87 @@ manifest:
     remote: catie-6tron
 
   projects:
-    - name: 6tron-connector
+    - name: 6tron_connector
       repo-path: zephyr_6tron-connector
       revision: 5594403822b9a258d168df22dd35aefa06344668
-      path: 6tron/6tron-connector
-# ================== Zest Core boards ==================
-    - name: zest-core-fmlr-72
+      path: 6tron/6tron_connector
+# ================== Zest Core Boards ==================
+    - name: zest_core_fmlr-72
       repo-path: zephyr_zest-core-fmlr-72
       revision: f395bc4240cb2108ae485539bfcabcbb9d70396e
-      path: 6tron/zest-core-fmlr-72
-    - name: zest-core-nrf52832
+      path: 6tron/boards/zest_core_fmlr-72
+    - name: zest_core_nrf52832
       repo-path: zephyr_zest-core-nrf52832
       revision: a02aa5d1bf2ff66c4c10c3eed48b66f4d7706c1b
-      path: 6tron/zest-core-nrf52832
-    - name: zest-core-stm32g474ve
+      path: 6tron/boards/zest_core_nrf52832
+    - name: zest_core_stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
       revision: afdf5debdeae6c1149db698d7253b573a80a9f9e
-      path: 6tron/zest-core-stm32g474ve
-    - name: zest-core-stm32h753zi
+      path: 6tron/boards/zest_core_stm32g474ve
+    - name: zest_core_stm32h753zi
       repo-path: zephyr_zest-core-stm32h753zi
       revision: ebee1633daf8dab287dddc3905f1db28ce0259c9
-      path: 6tron/zest-core-stm32h753zi
-    - name: zest-core-stm32l4a6rg
+      path: 6tron/boards/zest_core_stm32h753zi
+    - name: zest_core_stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
       revision: 8af4a80b6c3b2215f13a5882c7fd714c6b264548
-      path: 6tron/zest-core-stm32l4a6rg
-    - name: zest-core-stm32l562ve
+      path: 6tron/boards/zest_core_stm32l4a6rg
+    - name: zest_core_stm32l562ve
       repo-path: zephyr_zest-core-stm32l562ve
       revision: 3258d7b0394d7dec20a9263dd4b6c22cfcf484df
-      path: 6tron/zest-core-stm32l562ve
+      path: 6tron/boards/zest_core_stm32l562ve
 # ================= Integrated Devices =================
-    - name: z-iaq
+    - name: z_iaq
       repo-path: zephyr_z-iaq
       revision: 972051c8dafbf4ed1027eb16ff2c086bfa6a605b
-      path: 6tron/z-iaq
-    - name: z-motion
+      path: 6tron/boards/z_iaq
+    - name: z_motion
       repo-path: zephyr_z-motion
       revision: 385087b102bd032c369eff7d28bf969fe7332e81
-      path: 6tron/z-motion
-# ==================== Zest boards =====================
-    - name: zest-interface-ethernet
+      path: 6tron/boards/z_motion
+# ==================== Zest Shields =====================
+    - name: zest_interface_ethernet
       repo-path: zephyr_zest-interface-ethernet
       revision: 765c0029818806c1d7101b8a83ae57036d80744f
-      path: 6tron/zest-interface-ethernet
-    - name: zest-radio-gnss
+      path: 6tron/shields/zest_interface_ethernet
+    - name: zest_radio_gnss
       repo-path: zephyr_zest-radio-gnss
       revision: 3e583e39e8c7dc58888fdfa9ba8a44ba623bc7be
-      path: 6tron/zest-radio-gnss
-    - name: zest-radio-lora868
+      path: 6tron/shields/zest_radio_gnss
+    - name: zest_radio_lora868
       repo-path: zephyr_zest-radio-lora868
       revision: aa9f3da891782638634d47b40b0ead3f64bd0551
-      path: 6tron/zest-radio-lora868
-    - name: zest-sensor-imu
-      repo-path: zephyr_zest-sensor-imu
+      path: 6tron/shields/zest_radio_lora868
+    - name: zest_sensor_imu
+      repo-path: zephyr_zest_sensor_imu
       revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
-      path: 6tron/zest-sensor-imu
-    - name: zest-sensor-p-t-rh
+      path: 6tron/shields/zest-sensor-imu
+    - name: zest_sensor_p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
       revision: 51d37df1461e96700aba094f680adc9a45b969b5
-      path: 6tron/zest-sensor-p-t-rh
+      path: 6tron/shields/zest-sensor_p_t-rh
 # ====================== Drivers =======================
-    - name: ams-as621x
+    - name: ams_as621x
       repo-path: zephyr_ams-as621x
       revision: a595722d26b1654b3caac2b2415f6ac73996a988
-      path: 6tron/ams-as621x
-    - name: honeywell-hpma115
+      path: 6tron/drivers/ams_as621x
+    - name: honeywell_hpma115
       repo-path: zephyr_honeywell-hpma115
       revision: 415fc7e870d8e012e0f80674a5223c5d7dcde5d0
-      path: 6tron/honeywell-hpma115
-    - name: omron-2smpb-02e
+      path: 6tron/drivers/honeywell_hpma115
+    - name: omron_2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
       revision: 8c985b1fb7087344e883f01f94bac72e06374dfd
-      path: 6tron/omron-2smpb-02e
-    - name: sensirion-scd4x
+      path: 6tron/drivers/omron_2smpb-02e
+    - name: sensirion_scd4x
       repo-path: zephyr_sensirion-scd4x
       revision: 5e263765723ac61d21c0e27f633089cc83d2bbb6
-      path: 6tron/sensirion-scd4x
-    - name: te-connectivity-htu21d
+      path: 6tron/drivers/sensirion_scd4x
+    - name: te-connectivity_htu21d
       repo-path: zephyr_te-connectivity-htu21d
       revision: 5614450235a9ea30cd62478a7464d2df00c257ec
-      path: 6tron/te-connectivity-htu21d
-    - name: microchip-mcp3425
+      path: 6tron/drivers/te-connectivity_htu21d
+    - name: microchip_mcp3425
       repo-path: zephyr_microchip-mcp3425
       revision: cb0b33cb6d17e2c9133fab3f10bb33b59f4e2c5e
-      path: 6tron/microchip-mcp3425
+      path: 6tron/drivers/microchip_mcp3425
