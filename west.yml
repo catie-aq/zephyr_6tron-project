@@ -40,6 +40,10 @@ manifest:
       repo-path: zephyr_zest-core-stm32l562ve
       revision: 3258d7b0394d7dec20a9263dd4b6c22cfcf484df
       path: 6tron/boards/zest_core_stm32l562ve
+    - name: zest_core_nrf5340
+      repo-path: zephyr_zest-core-nrf5340
+      revision: 8052a081828caaa3172fb2fd811c6280939813b9
+      path: 6tron/boards/zest_core_nrf5340
 
     # ================= Integrated Devices =================
     - name: z_iaq

@@ -11,6 +11,7 @@ in the [6TRON](https://6tron.io) project.
 - [Zest_Core_STM32H753ZI](https://github.com/catie-aq/zephyr_zest-core-stm32h753zi)
 - [Zest_Core_STM32L4A6RG](https://github.com/catie-aq/zephyr_zest-core-stm32l4a6rg)
 - [Zest_Core_STM32L562VE](https://github.com/catie-aq/zephyr_zest-core-stm32l562ve)
+- [Zest_Core_nRF5340](https://github.com/catie-aq/zephyr_zest-core-nrf5340)
 
 ## Zest Shields
 
