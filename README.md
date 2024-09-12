@@ -15,6 +15,7 @@ in the [6TRON](https://6tron.io) project.
 
 ## Zest Shields
 
+- [Zest_Adapter_Click](https://github.com/catie-aq/zephyr_zest-adapter-click)
 - [Zest_Interface_Ethernet](https://github.com/catie-aq/zephyr_zest-interface-ethernet)
 - [Zest_Radio_GNSS](https://github.com/catie-aq/zephyr_zest-radio-gnss)
 - [Zest_Radio_LoRa868](https://github.com/catie-aq/zephyr_zest-radio-lora868)

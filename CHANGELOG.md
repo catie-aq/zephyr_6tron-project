@@ -5,6 +5,7 @@
 ### Added
 
 - Add support for Zest_Core_nRF5340.
+- Add support for Zest_Adapter_Click.
 
 ## [3.7.0+202408] - 20240809
 
