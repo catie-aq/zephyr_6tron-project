@@ -58,7 +58,7 @@ manifest:
     # ==================== Zest Shields =====================
     - name: zest_adapter_click
       repo-path: zephyr_zest-adapter-click
-      revision: 86d5c54779bbb6777a639d5de00b0a09ad097c00
+      revision: 35e370b58ee8deb483f507003bad77d69cd0d40d
       path: 6tron/shields/zest_adapter_click
     - name: zest_interface_ethernet
       repo-path: zephyr_zest-interface-ethernet
