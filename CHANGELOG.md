@@ -6,6 +6,7 @@
 
 - Add support for Zest_Core_nRF5340.
 - Add support for Zest_Adapter_Click.
+- Add support for Zest_Interface_RS485.
 
 ## [3.7.0+202408] - 20240809
 
