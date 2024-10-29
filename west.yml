@@ -12,21 +12,21 @@ manifest:
   projects:
     - name: 6tron_connector
       repo-path: zephyr_6tron-connector
-      revision: 5594403822b9a258d168df22dd35aefa06344668
+      revision: 7796488103213b53db64830809c55ba2e34016e1
       path: 6tron/6tron_connector
 
     # ================== Zest_Core Boards ==================
     - name: zest_core_fmlr-72
       repo-path: zephyr_zest-core-fmlr-72
-      revision: f395bc4240cb2108ae485539bfcabcbb9d70396e
+      revision: cab684c0817fe1d3c6282fcdd752a5411229d568
       path: 6tron/boards/zest_core_fmlr-72
     - name: zest_core_nrf52832
       repo-path: zephyr_zest-core-nrf52832
-      revision: a02aa5d1bf2ff66c4c10c3eed48b66f4d7706c1b
+      revision: f3afe007ccf9860b7be3b17b6b9904e7b0c897da
       path: 6tron/boards/zest_core_nrf52832
     - name: zest_core_nrf5340
       repo-path: zephyr_zest-core-nrf5340
-      revision: a81fa44b6020125a00ac4d12640d035ab4d58e4b
+      revision: c8d6522aa58dea90814b048cdd51cbe9c49ad64c
       path: 6tron/boards/zest_core_nrf5340
     - name: zest_core_stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
@@ -34,11 +34,11 @@ manifest:
       path: 6tron/boards/zest_core_stm32g474ve
     - name: zest_core_stm32h753zi
       repo-path: zephyr_zest-core-stm32h753zi
-      revision: ebee1633daf8dab287dddc3905f1db28ce0259c9
+      revision: b90c345a85dc03f6e2d4f6306f100fc3c4d150d5
       path: 6tron/boards/zest_core_stm32h753zi
     - name: zest_core_stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 8af4a80b6c3b2215f13a5882c7fd714c6b264548
+      revision: 782620ec7b137b7c7166a8337333b094c5c4466a
       path: 6tron/boards/zest_core_stm32l4a6rg
     - name: zest_core_stm32l562ve
       repo-path: zephyr_zest-core-stm32l562ve
@@ -52,7 +52,7 @@ manifest:
       path: 6tron/boards/z_iaq
     - name: z_motion
       repo-path: zephyr_z-motion
-      revision: 385087b102bd032c369eff7d28bf969fe7332e81
+      revision: a90f1319ac9c84bf8eec49dcbd0c366cb165be9e
       path: 6tron/boards/z_motion
 
     # ==================== Zest Shields =====================
@@ -88,7 +88,7 @@ manifest:
     # ====================== Drivers =======================
     - name: ams_as621x
       repo-path: zephyr_ams-as621x
-      revision: a595722d26b1654b3caac2b2415f6ac73996a988
+      revision: 096219be378848cb9a319b27095b5db6ce2f5fac
       path: 6tron/drivers/ams_as621x
     - name: honeywell_hpma115
       repo-path: zephyr_honeywell-hpma115
