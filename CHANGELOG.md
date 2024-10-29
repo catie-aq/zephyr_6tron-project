@@ -10,8 +10,8 @@
 - Add `sixtron-adc` and `sixtron-pwm` bindings.
 - Add support for Zest_Core_nRF52832 v1.1.0.
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
-- Add Flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
-- Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832
+- Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
+- Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
 
 ### Changed
 
