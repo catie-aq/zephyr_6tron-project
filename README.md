@@ -24,6 +24,7 @@ in the [6TRON](https://6tron.io) project.
 - [Zest_Radio_LoRa868](https://github.com/catie-aq/zephyr_zest-radio-lora868)
 - [Zest_Sensor_IMU](https://github.com/catie-aq/zephyr_zest-sensor-imu)
 - [Zest_Sensor_P-T-RH](https://github.com/catie-aq/zephyr_zest-sensor-p-t-rh)
+- [Zest_Storage_microSD](https://github.com/catie-aq/zephyr_zest-storage-microsd)
 
 ## Integrated Devices
 

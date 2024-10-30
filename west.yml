@@ -92,6 +92,10 @@ manifest:
       repo-path: zephyr_zest-sensor-p-t-rh
       revision: 51d37df1461e96700aba094f680adc9a45b969b5
       path: 6tron/shields/zest_sensor_p-t-rh
+    - name: zest_storage_microsd
+      repo-path: zephyr_zest-storage-microsd
+      revision: 959c28f3058d8a821a54a21aa5d77db62fa725c8
+      path: 6tron/shields/zest_storage_microsd
 
     # ====================== Drivers =======================
     - name: ams_as621x
