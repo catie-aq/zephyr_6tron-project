@@ -16,6 +16,7 @@
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
 - Add support for Zest_Interface_RS232.
 - Add support for Zest_Interface_RS485.
+- Add support for Zest_Storage_microSD.
 
 ### Changed
 
