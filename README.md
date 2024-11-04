@@ -33,6 +33,7 @@ in the [6TRON](https://6tron.io) project.
 
 - [AMS AS621X](https://github.com/catie-aq/zephyr_ams-as621x)
 - [Honeywell HPMA115](https://github.com/catie-aq/zephyr_honeywell-hpma115)
+- [Maxim MAX17201](https://github.com/catie-aq/zephyr_maxim-max17201)
 - [Microchip MCP3425](https://github.com/catie-aq/zephyr_microchip-mcp3425)
 - [Omron 2SMPB 02E](https://github.com/catie-aq/zephyr_omron-2smpb-02e)
 - [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
