@@ -9,6 +9,7 @@
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
 - Add support for Maxim MAX17201 driver.
 - Add support for Zest_Adapter_Click.
+- Add support for Zest_Battery_LiPo
 - Add support for Zest_Core_nRF52832 v1.1.0.
 - Add support for Zest_Core_nRF5340.
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
