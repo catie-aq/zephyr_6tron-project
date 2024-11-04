@@ -7,6 +7,7 @@
 - Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
 - Add `sixtron-adc` and `sixtron-pwm` bindings.
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
+- Add support for Maxim MAX17201 driver.
 - Add support for Zest_Adapter_Click.
 - Add support for Zest_Core_nRF52832 v1.1.0.
 - Add support for Zest_Core_nRF5340.

@@ -98,6 +98,10 @@ manifest:
       repo-path: zephyr_honeywell-hpma115
       revision: 415fc7e870d8e012e0f80674a5223c5d7dcde5d0
       path: 6tron/drivers/honeywell_hpma115
+    - name: maxim_max17201
+      repo-path: zephyr_maxim-max17201
+      revision: 3e404b738491cc913c5c244ca084daa1537dee48
+      path: 6tron/drivers/maxim_max17201
     - name: omron_2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
       revision: 8c985b1fb7087344e883f01f94bac72e06374dfd
