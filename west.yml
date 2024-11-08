@@ -84,10 +84,10 @@ manifest:
       repo-path: zephyr_zest-radio-lora868
       revision: aa9f3da891782638634d47b40b0ead3f64bd0551
       path: 6tron/shields/zest_radio_lora868
-    - name: zest-rtc-rv-8803-c7
+    - name: zest_rtc_rv-8803-c7
       repo-path: zephyr_zest-rtc-rv-8803-c7
-      revision: 6933671f3e97c7f8dac69e7185451518e7438a0b
-      path: 6tron/zest-rtc-rv-8803-c7
+      revision: 64838aa7cc4e8a7317517448447a22b8304b8e39
+      path: 6tron/zest_rtc_rv-8803-c7
     - name: zest_sensor_imu
       repo-path: zephyr_zest-sensor-imu
       revision: 428db710b797d42b631ce299635dc7b98da085c8
@@ -122,10 +122,10 @@ manifest:
       repo-path: zephyr_microchip-mcp3425
       revision: cb0b33cb6d17e2c9133fab3f10bb33b59f4e2c5e
       path: 6tron/drivers/microchip_mcp3425
-    - name: microcrystal-rv-8803-c7
-      repo-path: zephyr_microcrystal-rv-8803-c7
-      revision: 300dfc094c55434d188b96791bb8c9c3655bc4ab
-      path: 6tron/microcrystal-rv-8803-c7
+    - name: microcrystal_rv8803
+      repo-path: zephyr_microcrystal-rv8803
+      revision: fac72b2a27d5cca38fb91cb15f03f4f6bc60012c
+      path: 6tron/microcrystal_rv8803
     - name: omron_2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
       revision: 8c985b1fb7087344e883f01f94bac72e06374dfd

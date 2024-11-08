@@ -12,6 +12,7 @@
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
 - Add support for Bosch BNO055 sensor driver.
 - Add support for Maxim MAX17201 fuel gauge driver.
+- Add support for Microcrystal AG RV-8803-C7 rtc driver.
 - Add support for Zest_Adapter_Click.
 - Add support for Zest_Battery_LiPo.
 - Add support for Zest_Core_nRF52832 v1.1.0.
@@ -19,6 +20,7 @@
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
 - Add support for Zest_Interface_RS232.
 - Add support for Zest_Interface_RS485.
+- Add support for Zest_RTC_RV-8803-C7.
 - Add support for Zest_Storage_microSD.
 
 ### Changed
