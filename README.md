@@ -39,7 +39,7 @@ in the [6TRON](https://6tron.io) project.
 - [Honeywell HPMA115](https://github.com/catie-aq/zephyr_honeywell-hpma115)
 - [Maxim MAX17201](https://github.com/catie-aq/zephyr_maxim-max17201)
 - [Microchip MCP3425](https://github.com/catie-aq/zephyr_microchip-mcp3425)
-- [Micro Crystal RV-8803-C7](https://github.com/catie-aq/zephyr_microcrystal-rv-8803-c7)
+- [Microcrystal RV-8803-C7](https://github.com/catie-aq/zephyr_microcrystal-rv-8803-c7)
 - [Omron 2SMPB 02E](https://github.com/catie-aq/zephyr_omron-2smpb-02e)
 - [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
 - [TE Connectivity HTU21D](https://github.com/catie-aq/zephyr_te-connectivity-htu21d)
