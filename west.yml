@@ -98,6 +98,10 @@ manifest:
       repo-path: zephyr_ams-as621x
       revision: 096219be378848cb9a319b27095b5db6ce2f5fac
       path: 6tron/drivers/ams_as621x
+    - name: bosch_bno055
+      repo-path: zephyr_bosch-bno055
+      revision: e29085c74e768b4062adfec896347109a136100b
+      path: 6tron/drivers/bosch_bno055
     - name: honeywell_hpma115
       repo-path: zephyr_honeywell-hpma115
       revision: 415fc7e870d8e012e0f80674a5223c5d7dcde5d0

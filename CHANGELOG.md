@@ -7,6 +7,7 @@
 - Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
 - Add `sixtron-adc` and `sixtron-pwm` bindings.
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
+- Add support for Bosch BNO055 sensor driver.
 - Add support for Maxim MAX17201 fuel gauge driver.
 - Add support for Zest_Adapter_Click.
 - Add support for Zest_Battery_LiPo
