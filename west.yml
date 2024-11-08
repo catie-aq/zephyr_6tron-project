@@ -110,6 +110,10 @@ manifest:
       repo-path: zephyr_maxim-max17201
       revision: 3e404b738491cc913c5c244ca084daa1537dee48
       path: 6tron/drivers/maxim_max17201
+    - name: microchip_mcp3425
+      repo-path: zephyr_microchip-mcp3425
+      revision: cb0b33cb6d17e2c9133fab3f10bb33b59f4e2c5e
+      path: 6tron/drivers/microchip_mcp3425
     - name: omron_2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
       revision: 8c985b1fb7087344e883f01f94bac72e06374dfd
@@ -122,7 +126,3 @@ manifest:
       repo-path: zephyr_te-connectivity-htu21d
       revision: 5614450235a9ea30cd62478a7464d2df00c257ec
       path: 6tron/drivers/te-connectivity_htu21d
-    - name: microchip_mcp3425
-      repo-path: zephyr_microchip-mcp3425
-      revision: cb0b33cb6d17e2c9133fab3f10bb33b59f4e2c5e
-      path: 6tron/drivers/microchip_mcp3425
