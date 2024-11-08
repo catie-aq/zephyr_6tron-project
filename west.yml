@@ -22,27 +22,27 @@ manifest:
       path: 6tron/boards/zest_core_fmlr-72
     - name: zest_core_nrf52832
       repo-path: zephyr_zest-core-nrf52832
-      revision: f3afe007ccf9860b7be3b17b6b9904e7b0c897da
+      revision: 669f4f7e07cdcb5713838c21a3d885e3cbe461ce
       path: 6tron/boards/zest_core_nrf52832
     - name: zest_core_nrf5340
       repo-path: zephyr_zest-core-nrf5340
-      revision: c8d6522aa58dea90814b048cdd51cbe9c49ad64c
+      revision: 7a861d178e3c8061470e983af15ae7ae40329b2c
       path: 6tron/boards/zest_core_nrf5340
     - name: zest_core_stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
-      revision: afdf5debdeae6c1149db698d7253b573a80a9f9e
+      revision: af730f0c4efb24fb3ebb28dd6dbb9f2191bd29f7
       path: 6tron/boards/zest_core_stm32g474ve
     - name: zest_core_stm32h753zi
       repo-path: zephyr_zest-core-stm32h753zi
-      revision: b90c345a85dc03f6e2d4f6306f100fc3c4d150d5
+      revision: 8cb197997b356f3d00987de78dcb83846422af11
       path: 6tron/boards/zest_core_stm32h753zi
     - name: zest_core_stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 782620ec7b137b7c7166a8337333b094c5c4466a
+      revision: 325a3de58449bf184591ed60b39bb135496bd9f9
       path: 6tron/boards/zest_core_stm32l4a6rg
     - name: zest_core_stm32l562ve
       repo-path: zephyr_zest-core-stm32l562ve
-      revision: 3258d7b0394d7dec20a9263dd4b6c22cfcf484df
+      revision: 2ac1b8f4974cb8593e3fd01eb72670a0239cabf3
       path: 6tron/boards/zest_core_stm32l562ve
 
     # ================= Integrated Devices =================
@@ -86,7 +86,7 @@ manifest:
       path: 6tron/shields/zest_radio_lora868
     - name: zest_sensor_imu
       repo-path: zephyr_zest-sensor-imu
-      revision: b1ff40a85fdd29af3c5140b2a82dfb96b4775124
+      revision: 428db710b797d42b631ce299635dc7b98da085c8
       path: 6tron/shields/zest_sensor_imu
     - name: zest_sensor_p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
