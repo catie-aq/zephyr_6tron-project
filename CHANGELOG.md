@@ -4,13 +4,16 @@
 
 ### Added
 
+- Add ADC support for Zest_Core_STM32L4A6RG using `sixtron-adc`.
+- Add BNO055 and IIS2DLPC support on Zest_Sensor_IMU.
 - Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
 - Add `sixtron-adc` and `sixtron-pwm` bindings.
+- Add PWM support for Zest_Core_STM32L4A6RG using `sixtron-pwm`.
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
 - Add support for Bosch BNO055 sensor driver.
 - Add support for Maxim MAX17201 fuel gauge driver.
 - Add support for Zest_Adapter_Click.
-- Add support for Zest_Battery_LiPo
+- Add support for Zest_Battery_LiPo.
 - Add support for Zest_Core_nRF52832 v1.1.0.
 - Add support for Zest_Core_nRF5340.
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
@@ -24,6 +27,7 @@
 - Fix PWM definition for Zest_Core_STM32L4A6RG.
 - Fix Z_Motion BLE configuration.
 - Rename ICAP pin names to ICAPT.
+- Fix UART configuration for Zest_Core_nRF5340.
 
 ## [3.7.0+202408] - 20240809
 
