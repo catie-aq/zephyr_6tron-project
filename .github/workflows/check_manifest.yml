@@ -9,7 +9,7 @@ jobs:
   check-manifest:
     runs-on: sonu-github-arc
     container:
-      image: zephyrprojectrtos/ci
+      image: zephyrprojectrtos/ci:v0.26.13
 
     steps:
       - name: Checkout repository
