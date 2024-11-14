@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'west.yml'
+      - '.github/workflows/check_manifest.yml'
 
 jobs:
   check-manifest:
