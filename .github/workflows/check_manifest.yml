@@ -3,14 +3,14 @@ name: Check Manifest
 on:
   pull_request:
     paths:
-      - 'west.yml'
-      - '.github/workflows/check_manifest.yml'
+      - "west.yml"
+      - ".github/workflows/check_manifest.yml"
 
 jobs:
   check-manifest:
     runs-on: sonu-github-arc
     container:
-      image: zephyrprojectrtos/ci:v0.26.13
+      image: ghcr.io/catie-aq/zephyr_docker:v0.26.14
 
     steps:
       - name: Checkout repository
@@ -21,3 +21,176 @@ jobs:
       - uses: catie-aq/zephyr_workflows/zephyr_init@main
         with:
           personal_access_token: ${{ secrets.PAT }}
+
+  core:
+    needs: check-manifest
+    runs-on: sonu-github-arc
+    container:
+      image: ghcr.io/catie-aq/zephyr_docker:v0.26.14
+    env:
+      CMAKE_PREFIX_PATH: /opt/toolchains
+      ZEPHYR_VERSION: "v3.7.0"
+      TWISTER_OPTIONS: "--force-color --inline-logs -v --clobber-output"
+      TAGS: "DAC,ieee802154,counter,gpio,serial,i2c,i3c,UART,qspi,pwm,button,usb,spi,lora,i2s,mipi_dbi,wifi,ethernet,nvs,uart,dma,clock_control,usbc,watchdog,dac,w1,input,peci,can,bluetooth,adc,clock"
+
+    strategy:
+      matrix:
+        boards:
+          [
+            zest_core_fmlr-72,
+            zest_core_nrf52832,
+            zest_core_nrf5340,
+            zest_core_stm32g474ve,
+            zest_core_stm32h752zi,
+            zest_core_stm32l4a6rg,
+            zest_core_stm32l562ve,
+          ]
+
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: workdir
+
+      - name: Update west.yml
+        shell: bash
+        run: |
+          sed -i -z 's|    - name: catie-6tron\n      url-base: https://github.com/catie-aq|    - name: catie-6tron\n      url-base: https://github.com/catie-aq\n    - name: zephyrproject-rtos\n      url-base: https://github.com/zephyrproject-rtos|g' workdir/west.yml
+
+      - name: Add Zephyr to manifest (workdir/west.yml)
+        shell: bash
+        run: |
+          cat << EOF >> workdir/west.yml
+              - name: zephyr
+                remote: zephyrproject-rtos
+                revision: ${{ env.ZEPHYR_VERSION }}
+                import: true
+          EOF
+
+      - uses: catie-aq/zephyr_workflows/zephyr_init@main
+        with:
+          personal_access_token: ${{ secrets.CI_6TRON_ZEPHYR_RO }}
+
+      - uses: catie-aq/zephyr_workflows/zephyr_twister@44-update-twister-tag-for-board-workflow
+        with:
+          board: ${{ matrix.boards }}
+          options: ${{ env.TWISTER_OPTIONS }}
+          tags: ${{ env.TAGS }}
+
+  shield:
+    needs: check-manifest
+    runs-on: sonu-github-arc
+    container:
+      image: ghcr.io/catie-aq/zephyr_docker:v0.26.14
+    env:
+      CMAKE_PREFIX_PATH: /opt/toolchains
+      ZEPHYR_VERSION: "v3.7.0"
+
+    strategy:
+      matrix:
+        shields:
+          [
+            zest_adapter_click,
+            zest_battery_lipo,
+            zest_interface_ethernet,
+            zest_interface_rs232,
+            zest_interface_rs485,
+            zest_radio_gnss,
+            zest_radio_lora868,
+            zest_rtc_rv-8803-c7,
+            zest_sensor_imu,
+            zest_sensor_p_t_rh,
+            zest_storage_microsd,
+          ]
+
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: workdir
+
+      - name: Update west.yml
+        shell: bash
+        run: |
+          sed -i -z 's|    - name: catie-6tron\n      url-base: https://github.com/catie-aq|    - name: catie-6tron\n      url-base: https://github.com/catie-aq\n    - name: zephyrproject-rtos\n      url-base: https://github.com/zephyrproject-rtos|g' workdir/west.yml
+
+      - name: Add Zephyr to manifest (workdir/west.yml)
+        shell: bash
+        run: |
+          cat << EOF >> workdir/west.yml
+              - name: zephyr
+                remote: zephyrproject-rtos
+                revision: ${{ env.ZEPHYR_VERSION }}
+                import: true
+          EOF
+
+      - uses: catie-aq/zephyr_workflows/zephyr_init@main
+        with:
+          personal_access_token: ${{ secrets.CI_6TRON_ZEPHYR_RO }}
+
+      - uses: catie-aq/zephyr_workflows/zephyr_build@main
+        with:
+          board: zest_core_stm32l4a6rg
+          application: zephyr/samples/basic/blinky
+          shield: ${{ matrix.shields }}
+
+  driver:
+    needs: check-manifest
+    runs-on: sonu-github-arc
+    container:
+      image: ghcr.io/catie-aq/zephyr_docker:v0.26.14
+    env:
+      CMAKE_PREFIX_PATH: /opt/toolchains
+      ZEPHYR_VERSION: "v3.7.0"
+      TWISTER_OPTIONS: "--force-color --inline-logs -v --clobber-output --integration"
+
+    strategy:
+      matrix:
+        drivers:
+          [
+            ams_as621x,
+            bosch_bno055,
+            honeywell_hpma115,
+            maxim_max17201,
+            microchip_mcp3425,
+            microcrystal_rv8803,
+            omron_2smpb-02e,
+            sensirion_scd4x,
+            te-connectivity_htu21d,
+          ]
+
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: workdir
+
+      - name: Update west.yml
+        shell: bash
+        run: |
+          sed -i -z 's|    - name: catie-6tron\n      url-base: https://github.com/catie-aq|    - name: catie-6tron\n      url-base: https://github.com/catie-aq\n    - name: zephyrproject-rtos\n      url-base: https://github.com/zephyrproject-rtos|g' workdir/west.yml
+
+      - name: Add Zephyr to manifest (workdir/west.yml)
+        shell: bash
+        run: |
+          cat << EOF >> workdir/west.yml
+              - name: zephyr
+                remote: zephyrproject-rtos
+                revision: ${{ env.ZEPHYR_VERSION }}
+                import: true
+          EOF
+
+      - uses: catie-aq/zephyr_workflows/zephyr_init@main
+        with:
+          personal_access_token: ${{ secrets.CI_6TRON_ZEPHYR_RO }}
+
+      - uses: catie-aq/zephyr_workflows/zephyr_twister@main
+        with:
+          path: 6tron/drivers/${{ matrix.drivers }}/samples
+          options: ${{ env.TWISTER_OPTIONS }}
