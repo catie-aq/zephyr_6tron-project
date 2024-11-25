@@ -73,7 +73,7 @@ jobs:
         with:
           personal_access_token: ${{ secrets.CI_6TRON_ZEPHYR_RO }}
 
-      - uses: catie-aq/zephyr_workflows/zephyr_twister@44-update-twister-tag-for-board-workflow
+      - uses: catie-aq/zephyr_workflows/zephyr_twister@main
         with:
           board: ${{ matrix.boards }}
           options: ${{ env.TWISTER_OPTIONS }}
