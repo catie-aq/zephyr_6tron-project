@@ -18,31 +18,31 @@ manifest:
     # ================== Zest_Core Boards ==================
     - name: zest_core_fmlr-72
       repo-path: zephyr_zest-core-fmlr-72
-      revision: cab684c0817fe1d3c6282fcdd752a5411229d568
+      revision: 319b6bee38d7014631a8a42484a1230535444006
       path: 6tron/boards/zest_core_fmlr-72
     - name: zest_core_nrf52832
       repo-path: zephyr_zest-core-nrf52832
-      revision: 669f4f7e07cdcb5713838c21a3d885e3cbe461ce
+      revision: fd1287515dd49a51faed8a3a21531702380db86a
       path: 6tron/boards/zest_core_nrf52832
     - name: zest_core_nrf5340
       repo-path: zephyr_zest-core-nrf5340
-      revision: 7a861d178e3c8061470e983af15ae7ae40329b2c
+      revision: 9fc277706d380349112906d85c64159391af9253
       path: 6tron/boards/zest_core_nrf5340
     - name: zest_core_stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
-      revision: af730f0c4efb24fb3ebb28dd6dbb9f2191bd29f7
+      revision: 99f6c408ef088f247588566428d6057fe0f77879
       path: 6tron/boards/zest_core_stm32g474ve
     - name: zest_core_stm32h753zi
       repo-path: zephyr_zest-core-stm32h753zi
-      revision: 8cb197997b356f3d00987de78dcb83846422af11
+      revision: d5329e3408340a01e900b58a9b26331e7bccb92d
       path: 6tron/boards/zest_core_stm32h753zi
     - name: zest_core_stm32l4a6rg
       repo-path: zephyr_zest-core-stm32l4a6rg
-      revision: 325a3de58449bf184591ed60b39bb135496bd9f9
+      revision: 0e5ffad8b42cb80995e74e7e9b2c89209e738c43
       path: 6tron/boards/zest_core_stm32l4a6rg
     - name: zest_core_stm32l562ve
       repo-path: zephyr_zest-core-stm32l562ve
-      revision: 2ac1b8f4974cb8593e3fd01eb72670a0239cabf3
+      revision: dad092d1e6483d321366faeef114d75c1b0f0b67
       path: 6tron/boards/zest_core_stm32l562ve
 
     # ================= Integrated Devices =================
@@ -58,7 +58,7 @@ manifest:
     # ==================== Zest Shields =====================
     - name: zest_adapter_click
       repo-path: zephyr_zest-adapter-click
-      revision: 35e370b58ee8deb483f507003bad77d69cd0d40d
+      revision: b2f9751dcbd1a2e92e08cb6cdfbda1d351d9a64b
       path: 6tron/shields/zest_adapter_click
     - name: zest_battery_lipo
       repo-path: zephyr_zest-battery-lipo
@@ -66,7 +66,7 @@ manifest:
       path: 6tron/shields/zest_battery_lipo
     - name: zest_interface_ethernet
       repo-path: zephyr_zest-interface-ethernet
-      revision: 765c0029818806c1d7101b8a83ae57036d80744f
+      revision: 082bbdce1206ad1439f4448d5ae8ce4d1d475049
       path: 6tron/shields/zest_interface_ethernet
     - name: zest_interface_rs232
       repo-path: zephyr_zest-interface-rs232
@@ -74,15 +74,15 @@ manifest:
       path: 6tron/shields/zest_interface_rs232
     - name: zest_interface_rs485
       repo-path: zephyr_zest-interface-rs485
-      revision: 01ce3c2378d6b2fca544dea3af8d27d6ba78bd06
+      revision: 0759bdf69eb7a7f2ffb0d4ae5180003de2258a2d
       path: 6tron/shields/zest_interface_rs485
     - name: zest_radio_gnss
       repo-path: zephyr_zest-radio-gnss
-      revision: 3e583e39e8c7dc58888fdfa9ba8a44ba623bc7be
+      revision: f87f8c6f42d3564339453eca2d000c8ed18ffda5
       path: 6tron/shields/zest_radio_gnss
     - name: zest_radio_lora868
       repo-path: zephyr_zest-radio-lora868
-      revision: aa9f3da891782638634d47b40b0ead3f64bd0551
+      revision: 0961c330c5e5eaaf15d8a5d5206549363e13a8d0
       path: 6tron/shields/zest_radio_lora868
     - name: zest_rtc_rv-8803-c7
       repo-path: zephyr_zest-rtc-rv-8803-c7
@@ -90,11 +90,11 @@ manifest:
       path: 6tron/zest_rtc_rv-8803-c7
     - name: zest_sensor_imu
       repo-path: zephyr_zest-sensor-imu
-      revision: 428db710b797d42b631ce299635dc7b98da085c8
+      revision: 55cce937a307c3b67bf9eb6c93005d96c465f91d
       path: 6tron/shields/zest_sensor_imu
     - name: zest_sensor_p-t-rh
       repo-path: zephyr_zest-sensor-p-t-rh
-      revision: 51d37df1461e96700aba094f680adc9a45b969b5
+      revision: 7cd482f65c0ed1101eb6fc33a702c2ebbfc6ec0b
       path: 6tron/shields/zest_sensor_p-t-rh
     - name: zest_storage_microsd
       repo-path: zephyr_zest-storage-microsd
@@ -108,19 +108,19 @@ manifest:
       path: 6tron/drivers/ams_as621x
     - name: bosch_bno055
       repo-path: zephyr_bosch-bno055
-      revision: e29085c74e768b4062adfec896347109a136100b
+      revision: bbf91f02757d5155e99af76259dd89a0beada7ac
       path: 6tron/drivers/bosch_bno055
     - name: honeywell_hpma115
       repo-path: zephyr_honeywell-hpma115
-      revision: 415fc7e870d8e012e0f80674a5223c5d7dcde5d0
+      revision: 3ff05a557efafe53d99abea3f827ec33638ed16d
       path: 6tron/drivers/honeywell_hpma115
     - name: maxim_max17201
       repo-path: zephyr_maxim-max17201
-      revision: 3e404b738491cc913c5c244ca084daa1537dee48
+      revision: 67941660860215143ae021ad04c5c94de44b1e7e
       path: 6tron/drivers/maxim_max17201
     - name: microchip_mcp3425
       repo-path: zephyr_microchip-mcp3425
-      revision: cb0b33cb6d17e2c9133fab3f10bb33b59f4e2c5e
+      revision: 247b3af96bea84b3a2edf496a8ffcb4e04d84b19
       path: 6tron/drivers/microchip_mcp3425
     - name: microcrystal_rv8803
       repo-path: zephyr_microcrystal-rv8803
@@ -128,13 +128,13 @@ manifest:
       path: 6tron/drivers/microcrystal_rv8803
     - name: omron_2smpb-02e
       repo-path: zephyr_omron-2smpb-02e
-      revision: 8c985b1fb7087344e883f01f94bac72e06374dfd
+      revision: 28f602257de6b78a6f82fc826a4ba5c8aa9fcdc7
       path: 6tron/drivers/omron_2smpb-02e
     - name: sensirion_scd4x
       repo-path: zephyr_sensirion-scd4x
-      revision: 5e263765723ac61d21c0e27f633089cc83d2bbb6
+      revision: 3688d44c051071e721a08f4ce4ea8caa778eb62b
       path: 6tron/drivers/sensirion_scd4x
     - name: te-connectivity_htu21d
       repo-path: zephyr_te-connectivity-htu21d
-      revision: 5614450235a9ea30cd62478a7464d2df00c257ec
+      revision: cb10ac462907403ba2fcbc6289c80ecf59e1d302
       path: 6tron/drivers/te-connectivity_htu21d
