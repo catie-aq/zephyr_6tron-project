@@ -37,6 +37,7 @@ in the [6TRON](https://6tron.io) project.
 - [AMS AS621X](https://github.com/catie-aq/zephyr_ams-as621x)
 - [Bosch BNO055](https://github.com/catie-aq/zephyr_bosch-bno055)
 - [Honeywell HPMA115](https://github.com/catie-aq/zephyr_honeywell-hpma115)
+- [ILITEK ILI9163C](https://github.com/catie-aq/zephyr_ilitek-ili9163c)
 - [Maxim MAX17201](https://github.com/catie-aq/zephyr_maxim-max17201)
 - [Microchip MCP3425](https://github.com/catie-aq/zephyr_microchip-mcp3425)
 - [Microcrystal RV-8803-C7](https://github.com/catie-aq/zephyr_microcrystal-rv-8803-c7)

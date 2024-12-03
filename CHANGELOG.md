@@ -11,6 +11,7 @@
 - Add `sixtron-adc` and `sixtron-pwm` bindings.
 - Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
 - Add support for Bosch BNO055 sensor driver.
+- Add support for ILITEK ILI9163C display driver.
 - Add support for Maxim MAX17201 fuel gauge driver.
 - Add support for Microcrystal AG RV-8803-C7 rtc driver.
 - Add support for Quectel L86 modem driver.
