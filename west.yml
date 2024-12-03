@@ -130,6 +130,10 @@ manifest:
       repo-path: zephyr_omron-2smpb-02e
       revision: 28f602257de6b78a6f82fc826a4ba5c8aa9fcdc7
       path: 6tron/drivers/omron_2smpb-02e
+    - name: quectel_l86
+      repo-path: zephyr_quectel-l86
+      revision: 2744d16730f001417aa909f8420182a44069ff74
+      path: 6tron/drivers/quectel_l86
     - name: sensirion_scd4x
       repo-path: zephyr_sensirion-scd4x
       revision: 3688d44c051071e721a08f4ce4ea8caa778eb62b

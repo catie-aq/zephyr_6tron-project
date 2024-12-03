@@ -41,5 +41,6 @@ in the [6TRON](https://6tron.io) project.
 - [Microchip MCP3425](https://github.com/catie-aq/zephyr_microchip-mcp3425)
 - [Microcrystal RV-8803-C7](https://github.com/catie-aq/zephyr_microcrystal-rv-8803-c7)
 - [Omron 2SMPB 02E](https://github.com/catie-aq/zephyr_omron-2smpb-02e)
+- [Quectel L86](https://github.com/catie-aq/zephyr_quectel-l86)
 - [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
 - [TE Connectivity HTU21D](https://github.com/catie-aq/zephyr_te-connectivity-htu21d)
