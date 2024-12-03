@@ -17,6 +17,7 @@ in the [6TRON](https://6tron.io) project.
 
 - [Zest_Adapter_Click](https://github.com/catie-aq/zephyr_zest-adapter-click)
 - [Zest_Battery_LiPo](https://github.com/catie-aq/zephyr_zest-battery-lipo)
+- [Zest_Display_LCD](https://github.com/catie-aq/zephyr_zest-display-lcd)
 - [Zest_Interface_Ethernet](https://github.com/catie-aq/zephyr_zest-interface-ethernet)
 - [Zest_Interface_RS232](https://github.com/catie-aq/zephyr_zest-Interface-rs232)
 - [Zest_Interface_RS485](https://github.com/catie-aq/zephyr_zest-interface-rs485)
