@@ -114,6 +114,10 @@ manifest:
       repo-path: zephyr_honeywell-hpma115
       revision: 3ff05a557efafe53d99abea3f827ec33638ed16d
       path: 6tron/drivers/honeywell_hpma115
+    - name: ilitek_ili9163c
+      repo-path: zephyr_ilitek-ili9163c
+      revision: 20fba1f26f95148a8a49b7d45d6e58b069b3607e
+      path: 6tron/drivers/ilitek_ili9163c
     - name: maxim_max17201
       repo-path: zephyr_maxim-max17201
       revision: 67941660860215143ae021ad04c5c94de44b1e7e
