@@ -45,3 +45,4 @@ in the [6TRON](https://6tron.io) project.
 - [Quectel L86](https://github.com/catie-aq/zephyr_quectel-l86)
 - [Sensirion SCD4X](https://github.com/catie-aq/zephyr_sensirion-scd4x)
 - [TE Connectivity HTU21D](https://github.com/catie-aq/zephyr_te-connectivity-htu21d)
+- [Texas Instruments TSC2003](https://github.com/catie-aq/zephyr_ti-tsc2003)
