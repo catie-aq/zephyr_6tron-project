@@ -4,32 +4,40 @@
 
 ### Added
 
-- Add ADC support for Zest_Core_STM32L4A6RG using `sixtron-adc`.
+- Add ADC support for all Zest_Core using `sixtron-adc`.
 - Add BNO055 and IIS2DLPC support on Zest_Sensor_IMU.
-- Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
-- Add `sixtron-adc` and `sixtron-pwm` bindings.
-- Add PWM support for Zest_Core_STM32L4A6RG using `sixtron-pwm`.
+- Add PWM support for all Zest_Core using `sixtron-pwm`.
 - Add SPI chip select definition for Zest_Core_nRF5340, Zest_Core_nRF52832.
+- Add `sixtron-adc` and `sixtron-pwm` bindings.
+- Add flash partitions and Ethernet definition for Zest_Core_STM32H753ZI.
 - Add support for Bosch BNO055 sensor driver.
 - Add support for Maxim MAX17201 fuel gauge driver.
 - Add support for Microcrystal AG RV-8803-C7 rtc driver.
 - Add support for Zest_Adapter_Click.
 - Add support for Zest_Battery_LiPo.
+- Add support for Zest_Core_STM32L4A6RG v3.0.0.
 - Add support for Zest_Core_nRF52832 v1.1.0.
 - Add support for Zest_Core_nRF5340.
-- Add support for Zest_Core_STM32L4A6RG v3.0.0.
 - Add support for Zest_Interface_RS232.
 - Add support for Zest_Interface_RS485.
 - Add support for Zest_RTC_RV-8803-C7.
 - Add support for Zest_Storage_microSD.
+- Add support for input subsystem on all Zest_Core.
 
 ### Changed
 
-- Fix button polarity for Zest_Core_nRF5340.
+- Fix button polarity for all Zest_Core.
+- Fix configuration in HTU21D driver.
+- Fix compatible for shield Zest_Radio_GNSS.
+- Fix Ethernet definition for Zest_Interface_Ethernet.
+- Fix fdcan bus-speed deprecated properties for Zest_Core_STM32G474VE.
+- Fix I2C device on sixtron bus for Zest_Core_nRF5340.
+- Fix LoRa definition for Zest_Radio_LoRa868.
 - Fix PWM definition for Zest_Core_STM32L4A6RG.
+- Fix sensor definition for Zest_Sensor_P-T-RH.
+- Fix UART configuration for Zest_Core_nRF5340.
 - Fix Z_Motion BLE configuration.
 - Rename ICAP pin names to ICAPT.
-- Fix UART configuration for Zest_Core_nRF5340.
 
 ## [3.7.0+202408] - 20240809
 
