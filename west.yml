@@ -146,3 +146,7 @@ manifest:
       repo-path: zephyr_te-connectivity-htu21d
       revision: cb10ac462907403ba2fcbc6289c80ecf59e1d302
       path: 6tron/drivers/te-connectivity_htu21d
+    - name: ti_tsc2003
+      repo-path: zephyr_ti-tsc2003
+      revision: 6ce8f189e82414fd682ab09bded468e97df68a99
+      path: 6tron/drivers/ti_tsc2003

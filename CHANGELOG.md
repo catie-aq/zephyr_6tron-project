@@ -15,6 +15,7 @@
 - Add support for Maxim MAX17201 fuel gauge driver.
 - Add support for Microcrystal AG RV-8803-C7 rtc driver.
 - Add support for Quectel L86 modem driver.
+- Add support for Texas Instruments TSC2003 touchscreen driver.
 - Add support for Zest_Adapter_Click.
 - Add support for Zest_Battery_LiPo.
 - Add support for Zest_Core_STM32L4A6RG v3.0.0.
