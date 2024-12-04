@@ -91,7 +91,7 @@ manifest:
     - name: zest_rtc_rv-8803-c7
       repo-path: zephyr_zest-rtc-rv-8803-c7
       revision: 64838aa7cc4e8a7317517448447a22b8304b8e39
-      path: 6tron/zest_rtc_rv-8803-c7
+      path: 6tron/shields/zest_rtc_rv-8803-c7
     - name: zest_sensor_imu
       repo-path: zephyr_zest-sensor-imu
       revision: 55cce937a307c3b67bf9eb6c93005d96c465f91d
