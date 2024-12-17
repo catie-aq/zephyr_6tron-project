@@ -103,7 +103,7 @@ jobs:
             zest_radio_lora868,
             zest_rtc_rv-8803-c7,
             zest_sensor_imu,
-            zest_sensor_p_t_rh,
+            zest_sensor_p-t-rh,
             zest_storage_microsd,
           ]
 
