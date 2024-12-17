@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+### Added
+
+- Add FDCAN support for Zest_Core_STM32H753ZI.
+
+### Changed
+
+- Rename `zest_sensor_p_t_rh` shield to `zest_sensor-p-t-rh`.
+- Fix SX1272 configuration for Zest_Core_FMLR-72.
+- Fix button code for Zest_Core_nrF5340.
+
 ## [3.7.0+202412] - 20241204
 
 ### Added
