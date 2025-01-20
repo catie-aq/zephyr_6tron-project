@@ -26,7 +26,7 @@ manifest:
       path: 6tron/boards/zest_core_nrf52832
     - name: zest_core_nrf5340
       repo-path: zephyr_zest-core-nrf5340
-      revision: 6cb20a610d1f0c5941669a6c00e2a67c6bce51c2
+      revision: 3a1d23728c981b2c3cd421deb9dc044b0a02f035
       path: 6tron/boards/zest_core_nrf5340
     - name: zest_core_stm32g474ve
       repo-path: zephyr_zest-core-stm32g474ve
@@ -102,7 +102,7 @@ manifest:
       path: 6tron/shields/zest_sensor_p-t-rh
     - name: zest_storage_microsd
       repo-path: zephyr_zest-storage-microsd
-      revision: 959c28f3058d8a821a54a21aa5d77db62fa725c8
+      revision: d131cc4bcb52e79bbdaaebe170b541871fc14343
       path: 6tron/shields/zest_storage_microsd
 
     # ====================== Drivers =======================
@@ -116,7 +116,7 @@ manifest:
       path: 6tron/drivers/bosch_bno055
     - name: honeywell_hpma115
       repo-path: zephyr_honeywell-hpma115
-      revision: 3ff05a557efafe53d99abea3f827ec33638ed16d
+      revision: 437d96964286d6022f8ec75d1f0c1ed6e036a170
       path: 6tron/drivers/honeywell_hpma115
     - name: ilitek_ili9163c
       repo-path: zephyr_ilitek-ili9163c
