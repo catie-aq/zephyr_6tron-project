@@ -6,6 +6,7 @@ in the [6TRON](https://6tron.io) project.
 ## Zest_Core Boards
 
 - [Zest_Core_FMLR-72](https://github.com/catie-aq/zephyr_zest-core-fmlr-72)
+- [Zest_Core_MTXDOT](https://github.com/catie-aq/zephyr_zest-core-mtxdot)
 - [Zest_Core_nRF52832](https://github.com/catie-aq/zephyr_zest-core-nrf52832)
 - [Zest_Core_nRF5340](https://github.com/catie-aq/zephyr_zest-core-nrf5340)
 - [Zest_Core_STM32G474VE](https://github.com/catie-aq/zephyr_zest-core-stm32g474ve)

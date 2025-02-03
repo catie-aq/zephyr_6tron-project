@@ -7,6 +7,7 @@
 - Add FDCAN support for Zest_Core_STM32H753ZI.
 - Add required `disk-name` property for Zest_Storage_microSD.
 - Add high/low frequency crystal cscillator configurations for Zest_Core_nRF5340.
+- Add support for Zest_Core_MTXDOT.
 
 ### Changed
 
