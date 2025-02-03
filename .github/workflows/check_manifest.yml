@@ -38,6 +38,7 @@ jobs:
         boards:
           [
             zest_core_fmlr-72,
+            zest_core_mtxdot,
             zest_core_nrf52832,
             zest_core_nrf5340/nrf5340/cpuapp,
             zest_core_nrf5340/nrf5340/cpuapp/ns,
