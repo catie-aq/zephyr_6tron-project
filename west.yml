@@ -92,6 +92,10 @@ manifest:
       repo-path: zephyr_zest-radio-lora868
       revision: 0961c330c5e5eaaf15d8a5d5206549363e13a8d0
       path: 6tron/shields/zest_radio_lora868
+    - name: zest_radio_wifi
+      remote: catie-6tron
+      repo-path: zephyr_zest-radio-wifi
+      revision: 8b67f8dde96b8f6766b5699fb685f8f259266e5b
     - name: zest_rtc_rv-8803-c7
       repo-path: zephyr_zest-rtc-rv-8803-c7
       revision: 64838aa7cc4e8a7317517448447a22b8304b8e39
