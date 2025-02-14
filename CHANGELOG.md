@@ -8,6 +8,7 @@
 - Add required `disk-name` property for Zest_Storage_microSD.
 - Add high/low frequency crystal cscillator configurations for Zest_Core_nRF5340.
 - Add support for Zest_Core_MTXDOT.
+- Add support for shield Zest_Radio_WiFi v2.0.0.
 
 ### Changed
 
