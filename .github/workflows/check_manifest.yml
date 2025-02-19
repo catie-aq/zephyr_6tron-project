@@ -102,6 +102,7 @@ jobs:
             zest_interface_rs485,
             zest_radio_gnss,
             zest_radio_lora868,
+            zest_radio_wifi,
             zest_rtc_rv-8803-c7,
             zest_sensor_imu,
             zest_sensor_p-t-rh,
